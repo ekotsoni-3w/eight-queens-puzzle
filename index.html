@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<title>8 Queens Puzzle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <h1>8 Queens Puzzle</h1>
+        <div id="instructions">
+            <h3>Οδηγίες:</h3>
+            <p>Τοποθέτησε 8 βασίλισσες πάνω στη σκακιέρα χωρίς να απειλεί η μία την άλλη.</p>
+            <h3>Υπενθύμιση:</h3>
+            <p>Η Βασίλισσα μπορεί να κινηθεί κάθετα, οριζόντια και διαγώνια, όσα βήματα θέλει.</p>
+            <button id="hint-btn">Στοιχείο</button>
+            <button id="solution">Λύση</button>        
+            <button id="reset">Επανεκκίνηση</button>
+        </div>
+
+        <div id="board"></div>
+        
+        <div class="info">
+            <div id="message"></div>
+            <div id="count"></div>
+        </div>
+        
+        <div id="hint-box"></div>
+
+        <div id="solution-section">
+            <h2>Λύσεις</h2>
+            <div id="solution-container"></div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
